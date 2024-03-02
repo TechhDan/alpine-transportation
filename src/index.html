@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Transportation Company</title>
+    <!-- Include Tailwind CSS v3 from CDN -->
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-zinc-500 text-white">
+
+    <!-- Hero Section with Image and Text -->
+    <section class="bg-red-500">
+        <div class="container mx-auto flex flex-col md:flex-row items-center py-20 px-4">
+            <!-- Logo Image - replace 'logo.png' with your actual logo file path -->
+            <div class="flex-shrink-0">
+                <img src="assets/Alpine-Transportation-logo.png" alt="Alpine Transportation Logo" class="h-48 w-auto">
+            </div>
+            <!-- Hero Text -->
+            <div class="mt-4 md:mt-0 md:ml-6 text-center md:text-left">
+                <h1 class="text-3xl md:text-5xl font-bold text-white">
+                    Alpine Transportation
+                </h1>
+                <p class="text-xl text-white mt-2">
+                    Alpine Transportation is a diversified carrier offering cost-effective ground transportation and
+                    logistics solutions for delivery.
+                </p>
+                <p class="text-md text-white mt-4 text-center">
+                    Miami to New York - Monday and Friday
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="bg-white py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 text-center">About Us</h2>
+            <div class="mt-6 text-gray-600 text-lg">
+                <p>Welcome to the Alpine Transportation Company family—a team dedicated to ensuring a seamless and
+                    satisfying experience every step of the way. Our focus is on providing top-tier, responsive ground
+                    transportation services, specializing in the Miami to New York corridor.</p>
+                <p class="mt-4">We take pride in offering door-to-door, high-quality refrigerated transport to safeguard
+                    the integrity of your products. As we expand our network of professionals, we invite you to join us
+                    in forging connections that span the distance between Miami and New York.</p>
+                <p class="mt-4">Your support fuels our commitment to excellence, and we are eager to demonstrate the
+                    unparalleled satisfaction that comes with choosing Alpine Transportation Company for your logistics
+                    needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="bg-gray-100 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center gap-8">
+                <!-- Phone -->
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-phone-alt text-red-500 text-2xl"></i>
+                    <p class="mt-2 text-base font-medium text-gray-900">786-836-4907</p>
+                </div>
+                <!-- Instagram -->
+                <div class="flex flex-col items-center">
+                    <i class="fab fa-instagram text-red-500 text-2xl"></i>
+                    <a href="https://www.instagram.com/alpinetransportation_" target="_blank" class="mt-2 text-base font-medium text-gray-900" rel="noopener noreferrer">@AlpineTransportation</a>
+                </div>
+                <!-- Email -->
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-envelope text-red-500 text-2xl"></i>
+                    <p class="mt-2 text-base font-medium text-gray-900">info@alpine-tc.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-4xl font-bold text-center">Contact Us</h2>
+            <p class="text-lg text-gray-300 mt-4">We are here to answer any questions you may have about our services. Reach out to us and we'll respond as soon as we can.</p>
+            <div class="mt-8">
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm font-bold mb-2" for="name">Name</label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 bg-white text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm font-bold mb-2" for="email">Email</label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 bg-white text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Your Email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm font-bold mb-2" for="message">Message</label>
+                    <textarea
+                        class="shadow appearance-none border rounded w-full py-2 px-3 bg-white text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="message" placeholder="Your Message"></textarea>
+                </div>
+                <button
+                    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    Send Message
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Features Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <!-- Blocks Container -->
+            <div class="flex flex-wrap justify-center text-center gap-10">
+                <!-- Refrigerated Truck Block -->
+                <div class="w-full md:w-1/3 px-4">
+                    <img src="assets/refrigerated.webp" alt="Refrigerated Truck" class="mx-auto mb-4 h-40 w-auto object-cover">
+                    <h3 class="text-xl font-semibold mb-2">State-of-the-Art Refrigeration</h3>
+                    <p>Our advanced refrigerated trucks ensure your products are perfectly preserved from Miami to New York.</p>
+                </div>
+
+                <!-- Lane from Miami to NY Block -->
+                <div class="w-full md:w-1/3 px-4">
+                    <img src="assets/miami-to-ny.jpg" alt="Miami to New York Lane" class="mx-auto mb-4 h-40 w-auto object-cover">
+                    <h3 class="text-xl font-semibold mb-2">Dedicated Miami-NY Lanes</h3>
+                    <p>Experience our dedicated service on the Miami to New York route, designed for efficiency and reliability.</p>
+                </div>
+
+                <!-- Flowers Block -->
+                <div class="w-full md:w-1/3 px-4">
+                    <img src="assets/refrigerated-flowers.webp" alt="Fresh Flowers" class="mx-auto mb-4 h-40 w-auto object-cover">
+                    <h3 class="text-xl font-semibold mb-2">Floral Transport Expertise</h3>
+                    <p>We specialize in transporting flowers, ensuring they arrive in pristine condition to brighten your day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-6">
+        <p>© 2024 Alpine Transportation Company</p>
+    </footer>
+</body>
+
+</html>
